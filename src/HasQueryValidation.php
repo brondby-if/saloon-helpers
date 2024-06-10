@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Brondby\SaloonHelpers;
 
-use App\Saloon\Exceptions\ValidationException;
 use Illuminate\Support\Facades\Validator;
 use Saloon\Http\PendingRequest;
 
