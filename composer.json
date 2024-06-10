@@ -1,6 +1,7 @@
 {
     "name": "brondby/saloon-helpers",
     "type": "library",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Brondby\\SaloonHelpers\\": "src/"
