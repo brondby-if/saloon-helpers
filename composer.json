@@ -1,21 +1,51 @@
 {
     "name": "brondby/saloon-helpers",
-    "type": "library",
-    "version": "1.0.0",
-    "autoload": {
-        "psr-4": {
-            "Brondby\\SaloonHelpers\\": "src/"
-        }
-    },
+    "description": "A collection of helpful features for Saloon",
+    "keywords": [
+        "Saloon",
+        "saloon-helpers"
+    ],
+    "homepage": "https://github.com/brondby/saloon-helpers",
+    "license": "MIT",
     "authors": [
         {
             "name": "Troels Johnsen",
-            "email": "tjo@brondby.com"
+            "email": "tjo@brondby.com",
+            "role": "Developer"
         }
     ],
     "require": {
+        "php": "^8.2",
         "saloonphp/saloon": "^3.0",
         "illuminate/validation": "^11.9",
         "illuminate/contracts": "^11.9"
-    }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.20",
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brondby\\SaloonHelpers\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brondby\\SaloonHelpers\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+            "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
