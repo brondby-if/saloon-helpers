@@ -13,6 +13,7 @@ trait HasQueryValidation
     {
         return [];
     }
+
     public function bootHasQueryValidation(PendingRequest $pendingRequest): void
     {
         $request = $pendingRequest->getRequest();
