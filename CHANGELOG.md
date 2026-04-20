@@ -2,6 +2,16 @@
 
 All notable changes to `saloon-helpers` will be documented in this file.
 
+## v1.3.0 - 2026-04-20
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in https://github.com/brondby-if/saloon-helpers/pull/7
+* Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/brondby-if/saloon-helpers/pull/9
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/brondby-if/saloon-helpers/pull/13
+
+**Full Changelog**: https://github.com/brondby-if/saloon-helpers/compare/v1.2.0...v1.3.0
+
 ## v1.2.0 - 2025-03-25
 
 ### What's Changed
